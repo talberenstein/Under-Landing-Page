@@ -1,15 +1,15 @@
 {
-  "title": "Light, Fast & Responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Easy, Fast & Real",
+  "text": "You will have an application where you can scan TrueQRCodes. A searchable list (on multiple phones) where you can find everyone who signed up. Easy financials with graphics to know how everything is going in real time. ...Not bad eh?",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Why Us?",
+      "content": "We are not a big company. We do it for everyone, but good. We are true.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Set your own rules?",
+      "content": "Yes, the whole idea is you are the owner. So you set the rules for the event, you write what you want. There is a private chat also between the host and the guests. Be smart.",
       "icon": "notes.svg"
     }
   ]
