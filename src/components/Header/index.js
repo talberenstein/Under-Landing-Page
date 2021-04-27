@@ -56,8 +56,12 @@ const Header = ({ t }) => {
     <S.Header>
       <S.Container>
         <Row type="flex" justify="space-between" gutter={20}>
-          <S.LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" />
+          <S.LogoContainer
+            to="/"
+            aria-label="homepage"
+            style={{ marginTop: "-20px" }}
+          >
+            <SvgIcon src="logo.svg" width="140px" height="140px" />
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />
