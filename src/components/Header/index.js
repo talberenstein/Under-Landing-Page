@@ -4,6 +4,7 @@ import { CSSTransition } from "react-transition-group";
 import { withTranslation } from "react-i18next";
 
 import * as S from "./styles";
+import { Link } from "react-router-dom";
 
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Button = lazy(() => import("../../common/Button"));
@@ -40,6 +41,9 @@ const Header = ({ t }) => {
         <S.CustomNavLinkSmall onClick={() => scrollTo("why")}>
           <S.Span>{t("Why?")}</S.Span>
         </S.CustomNavLinkSmall>
+        <a href="https://undertickets.se" target="_blank" rel="noreferrer">
+          <S.Span>{t("Application (only available within Sweden)")}</S.Span>
+        </a>
         <S.CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
