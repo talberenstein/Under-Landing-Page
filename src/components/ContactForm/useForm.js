@@ -15,6 +15,7 @@ const useForm = (validate) => {
   };
 
   const handleSubmit = (event) => {
+    alert("Not messages yet, contact me ;)");
     event.preventDefault();
     setErrors(validate(values));
     // Your url for API
